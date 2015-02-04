@@ -6,6 +6,6 @@ Copy paste the following in your .emacs and copy piccolo-mode.el in your lib ema
 
 ```elisp
 (autoload 'piccolo-mode "piccolo-mode"
-   "Major mode for editing Markdown files" t)
+   "Poor man's emacs mode for Piccolo" t)
 (add-to-list 'auto-mode-alist '("\\.pi\\'" . piccolo-mode))
 ```
